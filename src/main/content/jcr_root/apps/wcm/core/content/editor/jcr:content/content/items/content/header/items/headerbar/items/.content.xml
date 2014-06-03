@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <backToSites
+        jcr:primaryType="nt:unstructured"
+        sling:orderBefore="pageinfo"
+        sling:resourceType="granite/ui/components/foundation/button"
+        align="left"
+        class="cq-BackToSites-action header-action"
+        hideText="{Boolean}true"
+        icon="icon-chevronLeft"
+        minimal="{Boolean}true"
+        sitesUrl="/sites.html"
+        title="Back to Sites"/>
+</jcr:root>

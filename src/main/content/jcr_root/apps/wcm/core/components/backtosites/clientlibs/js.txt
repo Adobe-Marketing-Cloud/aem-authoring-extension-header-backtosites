@@ -1,0 +1,4 @@
+#base=js
+# Extension for page authoring client library to go back to Sites
+
+backToSites.js
