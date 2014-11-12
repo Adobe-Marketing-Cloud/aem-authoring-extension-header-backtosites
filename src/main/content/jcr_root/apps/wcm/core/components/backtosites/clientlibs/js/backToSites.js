@@ -1,6 +1,6 @@
 /*
  * #%L
- * ACS AEM Commons Bundle
+ * aem-authoring-extension-header-backtosites
  * %%
  * Copyright (C) 2014 Adobe
  * %%
