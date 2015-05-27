@@ -6,7 +6,7 @@
         sling:orderBefore="pageinfo"
         sling:resourceType="granite/ui/components/foundation/button"
         align="left"
-        class="cq-BackToSites-action header-action"
+        class="cq-BackToSites-action editor-GlobalBar-item"
         hideText="{Boolean}true"
         icon="icon-chevronLeft"
         minimal="{Boolean}true"
