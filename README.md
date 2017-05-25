@@ -1,4 +1,4 @@
-# Adobe Experience Manager 6.2 Extension: Adding a new header action to the Sites Page Editor
+# Adobe Experience Manager 6.3 Extension: Adding a new header action to the Sites Page Editor
 
 This is a sample package showing how to create a custom header bar action to jump back to Sites administration.
 

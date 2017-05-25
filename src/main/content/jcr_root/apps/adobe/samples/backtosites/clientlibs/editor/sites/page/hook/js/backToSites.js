@@ -35,7 +35,7 @@
       */
 
      var BACK_TO_SITES_BUTTON_SELECTOR = ".cq-BackToSites-action";
-     var BACK_TO_SITES_DATA_URL = "sitesurl";
+     var BACK_TO_SITES_DATA_URL = "sitesUrl";
 
      /**
       *
@@ -44,9 +44,9 @@
       */
 
      channel.on("click", BACK_TO_SITES_BUTTON_SELECTOR, function() {
-         var $button = $(this);
          var path = ContentFrame.currentLocation();
-         window.location = $button.data(BACK_TO_SITES_DATA_URL) + path.replace(".html", "");
+         // this: is the HTMLElement button
+         window.location = this.dataset[BACK_TO_SITES_DATA_URL] + path.replace(".html", "");
      });
 
  }(jQuery, Granite.author, jQuery(document), this));

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="sling:OrderedFolder">
     <backToSites
+        granite:class="cq-BackToSites-action editor-GlobalBar-item"
+        granite:title="Back to Sites"
         jcr:primaryType="nt:unstructured"
         sling:orderBefore="pageinfo"
-        sling:resourceType="granite/ui/components/foundation/button"
+        sling:resourceType="granite/ui/components/coral/foundation/button"
         align="left"
-        class="cq-BackToSites-action editor-GlobalBar-item"
+        icon="chevronLeft"
         hideText="{Boolean}true"
-        icon="icon-chevronLeft"
-        minimal="{Boolean}true"
-        sitesUrl="/sites.html"
-        title="Back to Sites"/>
+        iconSize="S"
+        variant="minimal">
+        <granite:data
+            jcr:primaryType="nt:unstructured"
+            sites-url="/sites.html"/>
+    </backToSites>
 </jcr:root>
